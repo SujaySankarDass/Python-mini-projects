@@ -1,8 +1,5 @@
-
 create_pin=int(input("Create pin numer:"))
-
 balance=250000
-
 
 pin=int(input("Enter pin numer:"))
 
@@ -11,7 +8,6 @@ while pin != create_pin:
     pin=int(input("\nEnter pin num:"))
 
 print("\nLogin successful")
-
 
 while True:   
     print("\n1.Check balance  2.Deposite money")
